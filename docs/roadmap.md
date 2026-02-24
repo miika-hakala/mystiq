@@ -7,7 +7,7 @@
 - [x] työnjohtaja protocol
 - [x] frontend scaffold
 - [x] design system tokens
-- [ ] ai gateway skeleton (health + failover wiring)
+- [x] ai gateway skeleton (health + failover wiring)
 
 ## phase 1 — mvp (pwa)
 
