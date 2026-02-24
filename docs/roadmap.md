@@ -100,3 +100,4 @@ All architectural and strategic decisions are tracked in [docs/decisions/](decis
 - [DEC-005: ai deployment architecture](decisions/dec-005-ai-deployment-architecture.md)
 - [DEC-006: brand and visual identity](decisions/dec-006-brand-and-visual-identity.md)
 - [DEC-007: ux principles](decisions/dec-007-ux-principles.md)
+- [DEC-008: coding and repo structure standards](decisions/dec-008-coding-and-repo-structure-standards.md)
