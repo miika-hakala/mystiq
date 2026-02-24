@@ -35,6 +35,7 @@ Every DEC file follows this structure:
 - [DEC-004: frontend stack](dec-004-frontend-stack.md) — SvelteKit + PWA-first
 - [DEC-005: ai deployment architecture](dec-005-ai-deployment-architecture.md) — LAN cluster, gateway, failover
 - [DEC-006: brand and visual identity](dec-006-brand-and-visual-identity.md) — Orbital Q, dark + neon, premium tech
+- [DEC-007: ux principles](dec-007-ux-principles.md) — sofa vs field design laws
 
 ## superseded decisions
 
