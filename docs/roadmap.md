@@ -4,7 +4,7 @@
 
 - [x] repo bootstrap
 - [x] product documentation
-- [ ] työnjohtaja protocol
+- [x] työnjohtaja protocol
 - [ ] frontend scaffold
 - [ ] design system tokens
 - [ ] ai gateway skeleton (health + failover wiring)
