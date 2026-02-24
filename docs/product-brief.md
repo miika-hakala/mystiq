@@ -28,3 +28,7 @@ MystiQ is an AI-powered puzzle assistant that helps geocachers analyze, decode, 
 - **Dual-mode UX:** Deep analysis for home use + stripped-down quick mode for the field
 - **Assistant, not solver:** Provides hints, patterns, and approaches — never dumps raw coordinates
 - **PWA-first:** Works on any device, installable, offline-capable for field use
+
+## Decision Alignment
+
+This document follows decisions defined in [docs/decisions/](decisions/README.md).

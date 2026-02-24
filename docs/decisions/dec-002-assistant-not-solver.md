@@ -1,35 +1,35 @@
-# DEC-002: Assistant, Not Solver
+# DEC-002 — assistant, not solver
 
-**Status:** Accepted
-**Date:** 2025-02-24
+**status:** accepted
+**date:** 2025-02-24
 
-## Decision
-
-MystiQ assists, analyzes, and brainstorms — it does not auto-solve puzzles or output ready-to-use coordinates.
-
-## Context
+## context
 
 The geocaching community values the challenge of solving mystery caches. A tool perceived as a "cheat engine" would face backlash, harm the community, and risk the product's reputation. At the same time, solvers genuinely benefit from pattern recognition, cipher detection, and structured brainstorming.
 
-## UX Constraints (Enforced, Not Optional)
+## decision
 
-- **No "Solve" button:** Primary actions are "Analyze," "Decode," and "Brainstorm"
-- **No coordinate output:** The system never presents a final coordinate string as a result
-- **Hint-first responses:** All AI output is framed as observations, patterns, or suggested approaches
-- **User completes the last step:** The solver always bridges the gap from hint to answer themselves
-- **No bulk processing:** One puzzle at a time; no batch solving workflows
+MystiQ assists, analyzes, and brainstorms. It does not auto-solve puzzles or output ready-to-use coordinates.
 
-## Rationale
+UX constraints (enforced, not optional):
 
-- Protects community goodwill — the most important long-term asset
-- Keeps the product fun (solving is the point; removing it removes the value)
-- Reduces legal/ethical risk around geocaching ToS
-- Differentiates from generic cipher tools that just decode without context
-- Creates a sustainable position: helper tools are welcomed, cheat tools are fought
+- no "solve" button — primary actions are "analyze," "decode," and "brainstorm"
+- no coordinate output — the system never presents a final coordinate string as a result
+- hint-first responses — all AI output is framed as observations, patterns, or suggested approaches
+- user completes the last step — the solver always bridges the gap from hint to answer
+- no bulk processing — one puzzle at a time; no batch solving workflows
 
-## Consequences
+## rationale
+
+- protects community goodwill — the most important long-term asset
+- keeps the product fun (solving is the point; removing it removes the value)
+- reduces legal/ethical risk around geocaching ToS
+- differentiates from generic cipher tools that just decode without context
+- creates a sustainable position: helper tools are welcomed, cheat tools are fought
+
+## consequences
 
 - AI prompts must be carefully designed to avoid leaking direct solutions
 - UX copy must be reviewed against messaging guardrails (see positioning.md)
-- Feature requests for "just give me the answer" must be consistently declined
-- Marketing must never imply auto-solving capability
+- feature requests for "just give me the answer" must be consistently declined
+- marketing must never imply auto-solving capability

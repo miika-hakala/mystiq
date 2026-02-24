@@ -29,3 +29,7 @@ Mystery caches are the most intellectually rewarding — and the most frustratin
 - Become a "press button, get coordinates" tool
 - Integrate directly with Geocaching.com APIs (ToS risk)
 - Provide social/competitive features in early phases
+
+## Decision Alignment
+
+This document follows decisions defined in [docs/decisions/](decisions/README.md).

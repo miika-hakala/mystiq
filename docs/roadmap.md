@@ -1,38 +1,96 @@
-# Roadmap
+# roadmap — mystiq
 
-## Phase 0 — Landing + Waitlist
+## phase 0 — foundation
 
-- Landing page with value proposition and brand preview
-- Email waitlist capture
-- Social proof / community interest validation
-- Establish brand presence
+- [x] repo bootstrap
+- [x] product documentation
+- [ ] työnjohtaja protocol
+- [ ] frontend scaffold
+- [ ] design system tokens
 
-## Phase 1 — MVP (PWA)
+## phase 1 — mvp (pwa)
 
-- Core features: text analyzer, cipher detector, hint brainstormer, coordinate checker
-- Field Quick Mode UX
-- PWA: installable, fast launch, offline basics
-- Freemium + Pro subscription billing
-- Launch to waitlist, iterate on feedback
+- [ ] text puzzle analyzer
+- [ ] cipher / encoding detector
+- [ ] hint brainstormer
+- [ ] coordinate sanity checker
+- [ ] field quick mode
+- [ ] freemium limits
+- [ ] pricing screen
 
-## Phase 2 — Native Wrapper + Image Helper
+## phase 2 — stabilization
 
-- Wrap PWA in native shell (iOS/Android) for app store distribution
-- Light image analysis: extract text from puzzle images, detect visual patterns
-- Enhanced offline capabilities
-- Push notifications (e.g., "new puzzle type supported")
-- Expanded cipher/encoding library
+- [ ] usability refinement
+- [ ] performance optimization
+- [ ] analytics basics
+- [ ] onboarding polish
 
-## Phase 3 — Expansions
+## phase 3 — expansion (post-traction)
 
-- Workspace: save puzzles, organize by cache, track progress
-- Training mode: learn cipher types and solving techniques
-- Community puzzle packs (curated, non-geocaching-specific practice puzzles)
-- Advanced coordinate tools (projection, waypoint calculations)
-- Potential API integrations (only if ToS-safe and community-approved)
+- [ ] native wrapper
+- [ ] lightweight image helper
+- [ ] workspace / history upgrades
 
-## Guiding Principles
+---
 
-- Ship small, learn fast
-- Community sentiment is a first-class metric
-- Never sacrifice the "assistant" positioning for feature velocity
+## mvp lock (non-negotiable)
+
+The following are NOT included in MVP. No exceptions without a new DEC record.
+
+- automatic solving or coordinate generation
+- geocaching.com api integration
+- auto logging or cache interaction
+- social features
+- heavy image ai / advanced ocr
+- multi-language support
+- user accounts or cloud sync
+- native app store builds
+
+Reference: [DEC-003](decisions/dec-003-mvp-feature-freeze.md)
+
+## assistant boundary (non-negotiable)
+
+MystiQ assists, analyzes, and brainstorms. It does not auto-solve or output coordinates.
+
+- no "solve" button — only "analyze," "decode," "brainstorm"
+- no coordinate output as a result
+- hint-first responses only
+- user completes the final step
+
+Reference: [DEC-002](decisions/dec-002-assistant-not-solver.md)
+
+## success criteria
+
+MVP is PASS when:
+
+- all phase 1 items are shipped and functional
+- pwa installs and launches on mobile (ios + android)
+- field quick mode works with ≤3 taps from launch to analysis
+- freemium gate enforces limits correctly
+- no auto-solve path exists in any flow
+- community-facing copy reviewed against positioning guardrails
+
+## non-goals
+
+- replace the puzzle-solving experience
+- become a "press button, get coordinates" tool
+- compete with generic cipher/decoder websites
+- build a social platform
+- integrate with geocaching.com apis (tos risk)
+
+## risks tracked
+
+- community backlash if perceived as cheat tool
+- tos / api risk with geocaching platforms
+- scope creep beyond mvp lock
+- pwa limitations on ios (push notifications, offline quirks)
+
+See [risks-and-ethics.md](risks-and-ethics.md) for full analysis.
+
+## decision linkage
+
+All architectural and strategic decisions are tracked in [docs/decisions/](decisions/README.md).
+
+- [DEC-001: platform strategy](decisions/dec-001-platform-strategy.md)
+- [DEC-002: assistant, not solver](decisions/dec-002-assistant-not-solver.md)
+- [DEC-003: mvp feature freeze](decisions/dec-003-mvp-feature-freeze.md)
