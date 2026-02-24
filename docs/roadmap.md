@@ -5,8 +5,8 @@
 - [x] repo bootstrap
 - [x] product documentation
 - [x] työnjohtaja protocol
-- [ ] frontend scaffold
-- [ ] design system tokens
+- [x] frontend scaffold
+- [x] design system tokens
 - [ ] ai gateway skeleton (health + failover wiring)
 
 ## phase 1 — mvp (pwa)
