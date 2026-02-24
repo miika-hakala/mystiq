@@ -94,3 +94,4 @@ All architectural and strategic decisions are tracked in [docs/decisions/](decis
 - [DEC-001: platform strategy](decisions/dec-001-platform-strategy.md)
 - [DEC-002: assistant, not solver](decisions/dec-002-assistant-not-solver.md)
 - [DEC-003: mvp feature freeze](decisions/dec-003-mvp-feature-freeze.md)
+- [DEC-004: frontend stack](decisions/dec-004-frontend-stack.md)

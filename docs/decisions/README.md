@@ -32,6 +32,7 @@ Every DEC file follows this structure:
 - [DEC-001: platform strategy](dec-001-platform-strategy.md) — web-first PWA, native-ready
 - [DEC-002: assistant, not solver](dec-002-assistant-not-solver.md) — assist/analyze/brainstorm only
 - [DEC-003: mvp feature freeze](dec-003-mvp-feature-freeze.md) — locked scope, no creep
+- [DEC-004: frontend stack](dec-004-frontend-stack.md) — SvelteKit + PWA-first
 
 ## superseded decisions
 
