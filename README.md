@@ -18,4 +18,5 @@ MystiQ helps you analyze, decode, and brainstorm your way through mystery caches
 - [Roadmap](docs/roadmap.md)
 - [Risks & Ethics](docs/risks-and-ethics.md)
 - [Brand](docs/brand.md)
+- [AI Architecture](docs/ai-architecture.md)
 - [Decisions](docs/decisions/)
