@@ -33,6 +33,7 @@ Every DEC file follows this structure:
 - [DEC-002: assistant, not solver](dec-002-assistant-not-solver.md) — assist/analyze/brainstorm only
 - [DEC-003: mvp feature freeze](dec-003-mvp-feature-freeze.md) — locked scope, no creep
 - [DEC-004: frontend stack](dec-004-frontend-stack.md) — SvelteKit + PWA-first
+- [DEC-005: ai deployment architecture](dec-005-ai-deployment-architecture.md) — LAN cluster, gateway, failover
 
 ## superseded decisions
 
