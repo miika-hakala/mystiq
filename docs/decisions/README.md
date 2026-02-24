@@ -34,6 +34,7 @@ Every DEC file follows this structure:
 - [DEC-003: mvp feature freeze](dec-003-mvp-feature-freeze.md) — locked scope, no creep
 - [DEC-004: frontend stack](dec-004-frontend-stack.md) — SvelteKit + PWA-first
 - [DEC-005: ai deployment architecture](dec-005-ai-deployment-architecture.md) — LAN cluster, gateway, failover
+- [DEC-006: brand and visual identity](dec-006-brand-and-visual-identity.md) — Orbital Q, dark + neon, premium tech
 
 ## superseded decisions
 

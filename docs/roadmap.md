@@ -98,3 +98,4 @@ All architectural and strategic decisions are tracked in [docs/decisions/](decis
 - [DEC-003: mvp feature freeze](decisions/dec-003-mvp-feature-freeze.md)
 - [DEC-004: frontend stack](decisions/dec-004-frontend-stack.md)
 - [DEC-005: ai deployment architecture](decisions/dec-005-ai-deployment-architecture.md)
+- [DEC-006: brand and visual identity](decisions/dec-006-brand-and-visual-identity.md)

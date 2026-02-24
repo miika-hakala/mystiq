@@ -8,12 +8,31 @@ Unlike generic cipher tools or brute-force solvers, MystiQ understands geocachin
 
 ## Messaging Guardrails
 
-- **Always say:** assistant, analyzer, brainstorm companion, puzzle partner, thinking tool
-- **Never say:** solver, cracker, cheat tool, auto-solve, hack, bypass
-- **Frame outputs as:** hints, patterns, approaches, observations, suggestions
-- **Never frame outputs as:** answers, solutions, coordinates, results
+### Allowed Language
+
+- assistant, analyzer, brainstorm companion, puzzle partner, thinking tool
+- hints, patterns, approaches, observations, suggestions
+- analyze, decode, explore, reveal patterns, brainstorm
+- "helps you think," "expands what you can consider," "reduces dead ends"
+
+### Forbidden Framing
+
+- solver, cracker, cheat tool, auto-solve, hack, bypass
+- answers, solutions, coordinates, results
+- "solve instantly," "auto decode coordinates," "get the answer," "find coordinates"
+- any implication that MystiQ removes the need to think
 
 The product helps users *think better*, not *think less*.
+
+### Boundary Examples
+
+| Instead of... | Say... |
+|---|---|
+| "Solve this puzzle" | "Analyze this puzzle" |
+| "Crack this code" | "Decode this pattern" |
+| "Get the answer" | "Explore possibilities" |
+| "Find the coordinates" | "Check coordinate format" |
+| "Auto-decode" | "Detect encoding type" |
 
 ## Sample Microcopy
 

@@ -1,5 +1,22 @@
 # Monetization
 
+## Revenue Strategy
+
+MystiQ is a **cashflow niche micro-SaaS**. The goal is sustainable recurring revenue from a well-defined niche, not venture-scale growth.
+
+- Target market: geocachers who solve mystery caches (dedicated hobbyist niche)
+- Revenue model: subscription + one-time lifetime option
+- Growth model: organic (community, word-of-mouth, SEO) — not paid acquisition
+- NOT a VC/unicorn target — profitability > growth rate
+
+## Pricing Philosophy
+
+**Freemium → Pro → Lifetime** ladder:
+
+- **Free tier** exists to let users experience value before paying. Generous enough to be useful, limited enough to create clear upgrade motivation.
+- **Pro subscription (€7–10/mo)** is the core revenue driver. Priced to be an easy "yes" for an active hobbyist — less than a day of geocaching expenses.
+- **Lifetime (€39–49)** rewards early adopters, generates upfront cashflow during launch, and builds loyalty. Equivalent to ~5–6 months of Pro — attractive for committed users.
+
 ## Model: Freemium + Pro Subscription + Lifetime
 
 ### Free Tier

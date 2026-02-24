@@ -4,6 +4,12 @@
 
 MystiQ is an AI-powered puzzle assistant that helps geocachers analyze, decode, and brainstorm mystery caches — on the sofa or in the field.
 
+## Core Value Proposition
+
+**"When puzzles stop making sense."**
+
+MystiQ is the thinking partner that helps you see what you're missing — not by solving for you, but by expanding what you can consider. It detects patterns you'd overlook, identifies encodings you don't recognize, and brainstorms angles you haven't tried.
+
 ## User Journeys
 
 ### Sofa Mode (Deep Analysis)
@@ -24,10 +30,11 @@ MystiQ is an AI-powered puzzle assistant that helps geocachers analyze, decode, 
 
 ## Key Differentiators
 
-- **Geocaching-aware context:** Understands coordinate formats, common mystery cache patterns, and puzzle conventions specific to the hobby
-- **Dual-mode UX:** Deep analysis for home use + stripped-down quick mode for the field
-- **Assistant, not solver:** Provides hints, patterns, and approaches — never dumps raw coordinates
-- **PWA-first:** Works on any device, installable, offline-capable for field use
+- **Sofa + Field duality:** No other tool serves both deep home analysis and fast field use. MystiQ owns both contexts.
+- **AI reasoning vs static tools:** Unlike cipher lookup tables or brute-force decoders, MystiQ reasons about puzzles — identifying types, suggesting approaches, and brainstorming angles contextually.
+- **Geocaching-aware context:** Understands coordinate formats, common mystery cache patterns, and puzzle conventions specific to the hobby.
+- **Native-feeling PWA strategy:** Works on any device, installable, fast launch — feels like an app without app store friction.
+- **Assistant, not solver:** Provides hints, patterns, and approaches — never dumps raw coordinates.
 
 ## Decision Alignment
 
